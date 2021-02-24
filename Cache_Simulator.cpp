@@ -41,7 +41,7 @@ void export_output() {
 }
 
 int main() {
-	fp.open("D_trace.txt", ios::in);
+	fp.open("input.txt", ios::in);
 	if (!(fp.is_open())) {
 		cout << "File open failed." << endl;
 		return 0;
